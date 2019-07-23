@@ -8,4 +8,33 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TabLayoutSlider">
+        <item name="android:layout_width">@dimen/dimens_120dp</item>
+        <item name="android:layout_height">@dimen/dimens_24dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicatorHeight">@dimen/dimens_0dp</item>
+        <item name="tabMaxWidth">@dimen/dimens_0dp</item>
+        <item name="tabMinWidth">@dimen/dimens_0dp</item>
+        <item name="tabPadding">@dimen/dimens_0dp</item>
+    </style>
+
+    <dimen name="dimens_120dp">120dp</dimen>
+    <dimen name="dimens_24dp">24dp</dimen>
+    <dimen name="dimens_0dp">0dp</dimen>
+
+    <style name="DotBanner">
+        <item name="android:layout_width">@dimen/dimens_120dp</item>
+        <item name="android:layout_height">@dimen/dimens_24dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicatorHeight">@dimen/dimens_0dp</item>
+        <item name="tabMaxWidth">@dimen/dimens_0dp</item>
+        <item name="tabMinWidth">@dimen/dimens_0dp</item>
+        <item name="tabPadding">@dimen/dimens_0dp</item>
+    </style>
 </resources>

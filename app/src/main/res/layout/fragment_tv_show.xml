@@ -1,0 +1,27 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="mViewModel"
+                type="id.aderayanbima.made.moviecatalog.mvvm.tvshow.TvShowViewModel"/>
+
+        <variable
+                name="mListener"
+                type="id.aderayanbima.made.moviecatalog.mvvm.tvshow.TvShowUserActionListener"/>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerTvShow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

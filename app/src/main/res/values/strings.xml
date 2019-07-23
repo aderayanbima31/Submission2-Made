@@ -82,4 +82,23 @@
         </item>
 
     </array>
+
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+        com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior
+    </string>
+    <string name="text_lorem_ipsum" translatable="false">Lorem Ipsum Donor</string>
+    <string name="text_lorem_ipsum_long" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a eros turpis.
+        Praesent porttitor molestie nisi ut consequat. Nulla placerat nulla elit, in convallis ipsum tincidunt at.
+    </string>
+
+    <string name="text_movie">Film</string>
+    <string name="text_tv_show">Siaran TV</string>
+    <string name="detail">Detail</string>
+    <string name="status">Status</string>
+    <string name="rating">Peringkat</string>
+    <string name="overview">Ulasan</string>
+    <string name="detail_movie">Detail Film</string>
+    <string name="detail_tv_show">Detail Siaran TV</string>
+    <string name="release">Rilis Perdana</string>
 </resources>
